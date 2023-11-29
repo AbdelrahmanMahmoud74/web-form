@@ -1,8 +1,11 @@
 {
+   "homepage": "https://AbdelrahmanMahmoud74.github.io/web-form",
   "name": "web-form",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+     "predeploy":"npm install build",
+    "deploy":"gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
